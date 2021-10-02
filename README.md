@@ -20,3 +20,4 @@ CLOUD-THESAURUS:
 欢迎提交 Pull Requests, 共同维护网络环境.
 
 注: 如您的网络环境不支持访问 github, 可以使用托管在码云的国内词库, 但不保证词库完善与稳定性 (因部分限制).
+https://gitee.com/yurinann/Filter-Thesaurus-Cloud
