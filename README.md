@@ -1,15 +1,20 @@
 # Filter-Thesaurus-Cloud
 
 A thesaurus for minecraft server (TrChat).
+<br>
+<br>
 
 **请勿滥用、恶意使用本词库！请遵守相关法律法规！**
+<br>
+<br>
 
 这是一个为维护 Minecraft 服务器内交流环境而生的词库。
 对于词库内的敏感内容，请勿恶意使用、传播。
 
 推荐您使用 TrChat 搭配本词库达到最好的效果.
 (TrChat: https://github.com/FlickerProjects/TrChat)
-
+<br>
+<br>
 使用方法:
 ```
 CLOUD-THESAURUS:
