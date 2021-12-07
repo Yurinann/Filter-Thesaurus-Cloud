@@ -1,6 +1,6 @@
 # Filter-Thesaurus-Cloud
 
-A thesaurus for minecraft server (TrChat).
+A thesaurus for minecraft server (via TrChat).
 <br>
 <br>
 
@@ -26,8 +26,8 @@ CLOUD-THESAURUS:
   URL:
     - 'https://raw.githubusercontent.com/Yurinann/Filter-Thesaurus-Cloud/main/database.json'
 ```
-如上，将 CLOUD-THESAURUS.ENABLE 改为 true, CLOUD-THESAURUS.URL 下加入 https://raw.githubusercontent.com/Yurinann/Filter-Thesaurus-Cloud/main/database.json 链接 (格式如上), 重启后即可使用屏蔽功能.
+如上，将 CLOUD-THESAURUS.ENABLE 修改为 true, CLOUD-THESAURUS.URL 下加入 https://raw.githubusercontent.com/Yurinann/Filter-Thesaurus-Cloud/main/database.json 链接 (格式如上), 重启后即可使用屏蔽功能.
 
 欢迎提交 Pull Requests, 共同维护网络环境.
 
-注：本词库内容大多来源于网络收集与运营服务器中遇到的不文明语言。
+注：本词库内容大多来源于网络与在服务器运营中遇到的不文明语言。
