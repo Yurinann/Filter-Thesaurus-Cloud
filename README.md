@@ -20,20 +20,14 @@ TrChat (Github): https://github.com/TrPlugins/TrChat
 <br>
 <br>
 
-使用方法 (2.0.0+):
+#
+
+<br>
+
+配置参考 (2.0+):
 
 `filter.yml`
 ```yaml
-# 是否启用敏感词
-Enable: 
-  # 聊天是否检测
-  Chat: true 
-  # 牌子是否检测
-  Sign: true 
-  # 铁砧是否检测
-  Anvil: true 
-  # 物品是否检测
-  Item: false
 # 云词库
 Cloud-Thesaurus:
   # 是否启用 
@@ -43,21 +37,15 @@ Cloud-Thesaurus:
   # 第三方词库 （感谢南城提供的词库）
   Urls: 
     - 'https://raw.githubusercontent.com/Yurinann/Filter-Thesaurus-Cloud/main/database.json'
-#本地词库
-Local:
-  - 'NMSL'
-  - 'fuck'
-  - 'shit'
-# 敏感词白名单
-WhiteList: ['has been']
-# 替换成的内容
-Replacement: '*'
 ```
-参考链接 (Gitbook): https://trchat.plugindoc.cn/an-zhuang-pei-zhi/pei-zhi/guo-lv-qi
+
+参考链接: [Gitbook](https://trchat.plugindoc.cn/an-zhuang-pei-zhi/configs/filter)
 <br>
 <br>
 
-使用方法 (1.90-):
+配置参考 (1.90-):
+
+`filter.yml`
 ```yaml
 CLOUD-THESAURUS:
   # 启用
@@ -68,8 +56,10 @@ CLOUD-THESAURUS:
   URL:
     - 'https://raw.githubusercontent.com/Yurinann/Filter-Thesaurus-Cloud/main/database.json'
 ```
-如上，将 CLOUD-THESAURUS.ENABLE 修改为 true，在 CLOUD-THESAURUS.URL 下加入 https://raw.githubusercontent.com/Yurinann/Filter-Thesaurus-Cloud/main/database.json 链接 (格式如上)，重启服务器后即可使用屏蔽功能。
-<br>
+
+参考链接: [Gitbook](https://trchat.plugindoc.cn/gui-dang/1.9-documentation/pei-zhi)
+#
+
 <br>
 
 欢迎提交 Pull Request！
