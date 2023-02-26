@@ -2,46 +2,34 @@
 
 A word-filter thesaurus for minecraft server (via TrChat).
 [中文](README.md)
-<br>
+
 <br>
 
-**Please do not abuse this thesaurus! Please observe the relevant laws and regulations!**
-<br>
-<br>
+*This thesaurus was created to maintain a good communication environment within the Minecraft server. Please do not use or distribute the content of the thesaurus maliciously.*
 
-This thesaurus was created to maintain a good communication environment within the Minecraft server. Please do not use or distribute the content of the thesaurus maliciously.
+<br>
 
 Please use the TrChat plugin with this thesaurus (already built in the plugin).
+> TrChat (Github): https://github.com/TrPlugins/TrChat
 
-TrChat (Github): https://github.com/TrPlugins/TrChat
-<br>
 <br>
 
-Usage (2.0.0+):
+#
+
+Usage (2.0+):
 
 `filter.yml`
 ```yaml
-Enable: 
-  Chat: true 
-  Sign: true 
-  Anvil: true 
-  Item: false
 # Cloud Thesaurus Settings
 Cloud-Thesaurus:
   Enabled: true
-  Ignored: [] 
-  # Cloud Url
+  Ignored: []
+  # Third-party Cloud Thesaurus Url (Provided by Yurinann)
   Urls: 
     - 'https://raw.githubusercontent.com/Yurinann/Filter-Thesaurus-Cloud/main/database.json'
-Local:
-  - 'NMSL'
-  - 'fuck'
-  - 'shit'
-WhiteList: ['has been']
-Replacement: '*'
 ```
-Reference Link (Gitbook): https://trchat.plugindoc.cn/an-zhuang-pei-zhi/pei-zhi/guo-lv-qi
-<br>
+Reference Link (Gitbook): [Gitbook](https://trchat.plugindoc.cn/an-zhuang-pei-zhi/configs/filter)
+
 <br>
 
 Usage (1.90-):
@@ -49,11 +37,12 @@ Usage (1.90-):
 CLOUD-THESAURUS:
   ENABLE: true
   WHITELIST: []
-  # Cloud Url
+  # Third-party Cloud Thesaurus Url (Provided by Yurinann)
   URL:
     - 'https://raw.githubusercontent.com/Yurinann/Filter-Thesaurus-Cloud/main/database.json'
 ```
-As above, change CLOUD-THESAURUS.ENABLE to true, add https://raw.githubusercontent.com/Yurinann/Filter-Thesaurus-Cloud/main/database.json (in the same format as above), and restart the server to use this function.
+Reference Link (Gitbook): [Gitbook](https://trchat.plugindoc.cn/gui-dang/1.9-documentation/pei-zhi)
+#
 
 <br>
 PR is welcome!

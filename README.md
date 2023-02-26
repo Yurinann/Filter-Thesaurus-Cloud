@@ -2,27 +2,19 @@
 
 A word-filter thesaurus for minecraft server (via TrChat).
 [EN](README_EN.md)
-<br>
+
 <br>
 
-**请勿滥用本词库！请遵守相关法律法规！**
-<br>
-<br>
+*免责声明: 本词库的创建旨在维护 Minecraft 服务器内的良好交流环境。请勿恶意使用或传播词库内容。*
 
-本词库的创建旨在维护 Minecraft 服务器内的良好交流环境。请勿恶意使用或传播词库内容。
-
-本人声明：本词库创建本意无任何不良内容导向，仅作为对网络公开发言进行敏感性审查的便捷使用，任何自然人或组织对本词库的滥用本人表示谴责并不对此负任何法律责任。
 <br>
 
 请使用 TrChat 插件搭配本词库 (插件中已内置) 。
+> TrChat (Github): https://github.com/TrPlugins/TrChat
 
-TrChat (Github): https://github.com/TrPlugins/TrChat
-<br>
 <br>
 
 #
-
-<br>
 
 配置参考 (2.0+):
 
@@ -40,7 +32,7 @@ Cloud-Thesaurus:
 ```
 
 参考链接: [Gitbook](https://trchat.plugindoc.cn/an-zhuang-pei-zhi/configs/filter)
-<br>
+
 <br>
 
 配置参考 (1.90-):
